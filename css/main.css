@@ -1,0 +1,231 @@
+nav{
+	top: 0;
+    z-index: 100;
+	background: black;
+	opacity: 0.8;
+	width: 100%;
+	height:50px;
+	position: fixed;
+}
+
+.nav a{
+	text-decoration: none;
+	color: white;
+}
+
+.nav a:hover{
+	color: grey;
+}
+
+.nav li{
+	display: inline-block;
+	padding: 5px 40px;
+}
+
+.sectionOne{
+	float: left;
+	width: 50%;
+}
+
+.sectionTwo{
+	float: right;
+	width: 50%;
+}
+
+.sectionThree{
+	float: left;
+	width: 50%;
+}
+
+.sectionFour{
+	float:right;
+	width: 50%;
+}
+
+.sectionFive{
+	float: left;
+	width: 50%;
+}
+
+.sectionSix{
+	float: right;
+	width: 50%;
+}
+
+.links{
+	width: 100%;
+	display: inline-block;
+	padding-left: 100px;
+	margin: 0;
+	background-color: whitesmoke;
+}
+
+/*.links ul{
+	width: 20px;
+	display: inline-block;
+	list-style: none;
+	font-size: 10px;
+}*/
+
+.bottom .links ul li{
+	padding: 3px;
+}
+
+.bottom .links ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.bottom .links ul li a:hover{
+	text-decoration: underline;
+}
+
+.links .colOne{
+	float: left;
+	width: 15%;
+	list-style: none;
+	font-size: 13px;
+}
+
+.links .colOne li:first-child{
+	font-weight: bold;
+}
+
+.links .colTwo{
+	float: left;
+	width: 15%;
+	list-style: none;
+	font-size: 13px;
+}
+
+.links .colTwo li:first-child{
+	font-weight: bold;
+}
+
+.links .colThree{
+	float: left;
+	width: 15%;
+	list-style: none;
+	font-size: 13px;
+}
+
+.links .colThree li:first-child{
+	font-weight: bold;
+}
+
+.links .colThree li:nth-child(5){
+	font-weight: bold;
+}
+
+.links .colFour{
+	float: left;
+	width: 15%;
+	list-style: none;
+	font-size: 13px;
+}
+
+.links .colFour li:first-child{
+	font-weight: bold;
+}
+
+.links .colFour li:nth-child(6){
+	font-weight: bold;
+}
+
+.links .colFive{
+	float: left;
+	width: 15%;
+	list-style: none;
+	font-size: 13px;
+}
+
+.links .colFive li:first-child{
+	font-weight: bold;
+}
+
+.bottom{
+	background-color: whitesmoke;
+}
+
+.bottom .shop{
+	display: block;
+	position: relative;
+	color: grey;
+	padding-left: 140px;
+}
+
+.bottom .shop a{
+	text-decoration: none;
+	color: blue;
+}
+
+.bottom .shop a:hover{
+	text-decoration: underline;
+}
+
+
+footer{
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-left: 120px;
+	position: relative;
+	bottom: 5px;
+}
+footer h6{
+	padding: 20px;
+	display: inline-block;
+}
+
+footer .copy{
+	color: grey;
+}
+
+footer h6 a{
+	text-decoration: none;
+	color: black;
+}
+
+footer h6 a:hover{
+	text-decoration: underline;
+}
+
+footer .pp{
+	border-right: 2px solid grey;
+	height: 0.2px;
+}
+
+footer .terms{
+	border-right: 2px solid grey;
+	height: 0.2px;
+}
+
+footer .sales{
+	border-right: 2px solid grey;
+	height: 0.2px;
+}
+
+footer .legal{
+	border-right: 2px solid grey;
+	height: 0.2px;
+}
+
+footer i{
+	position: relative;
+	float: right;
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+footer i a{
+	text-decoration: none;
+	color: black;
+}
+
+/*.bottom footer i .fa{
+	background-color: white;
+	border-radius: 50%;
+}*/
+
+footer i a:hover{
+	text-decoration: underline;
+}
